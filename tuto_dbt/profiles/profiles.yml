@@ -1,0 +1,12 @@
+tuto_dbt:
+  outputs:
+    dev:
+      dbname: db_binome1
+      host: 51.159.74.117
+      pass: aing9eib_oh9Eig7ooVo
+      port: 16573
+      schema: dwh
+      threads: 1
+      type: postgres
+      user: binome1
+  target: dev

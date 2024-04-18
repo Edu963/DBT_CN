@@ -1,0 +1,113 @@
+[0m10:15:14.143481 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EAECD7F20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EAECD7EF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EAECD7FE0>]}
+
+
+============================== 10:15:14.150040 | df4e97a8-463e-4c56-ac54-b4a7f1d4ac59 ==============================
+[0m10:15:14.150040 [info ] [MainThread]: Running with dbt=1.7.11
+[0m10:15:14.150040 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\hector.trejos-cabeza\\.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:15:14.151033 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/hector.trejos-cabeza/.dbt')}
+[0m10:15:14.151033 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m10:15:23.482176 [debug] [MainThread]: Starter project path: C:\Users\hector.trejos-cabeza\Documents\virtual_env\dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m10:15:23.539460 [info ] [MainThread]: 
+Your new dbt project "tuto_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:15:23.541065 [info ] [MainThread]: Setting up your profile.
+[0m10:19:57.454889 [info ] [MainThread]: Profile tuto_dbt written to C:\Users\hector.trejos-cabeza\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:19:57.459973 [debug] [MainThread]: Command `dbt init` succeeded at 10:19:57.458963 after 283.40 seconds
+[0m10:19:57.460527 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EAE21FA70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EA89F66C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EAEB467E0>]}
+[0m10:19:57.461548 [debug] [MainThread]: Flushing usage events
+[0m10:20:14.279907 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220EC90A3C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220EC853890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220ECA3E960>]}
+
+
+============================== 10:20:14.279907 | 17667a23-c8bd-4ff9-9e24-c7eff302a7b8 ==============================
+[0m10:20:14.279907 [info ] [MainThread]: Running with dbt=1.7.11
+[0m10:20:14.279907 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\hector.trejos-cabeza\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:20:14.279907 [info ] [MainThread]: dbt version: 1.7.11
+[0m10:20:14.284531 [info ] [MainThread]: python version: 3.12.2
+[0m10:20:14.284531 [info ] [MainThread]: python path: C:\Users\hector.trejos-cabeza\Documents\virtual_env\dbt-env\Scripts\python.exe
+[0m10:20:14.284531 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m10:20:14.345736 [info ] [MainThread]: Using profiles dir at C:\Users\hector.trejos-cabeza\.dbt
+[0m10:20:14.346336 [info ] [MainThread]: Using profiles.yml file at C:\Users\hector.trejos-cabeza\.dbt\profiles.yml
+[0m10:20:14.346336 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\hector.trejos-cabeza\Documents\DBT_CN\dbt_project.yml
+[0m10:20:14.346336 [info ] [MainThread]: adapter type: postgres
+[0m10:20:14.346336 [info ] [MainThread]: adapter version: 1.7.11
+[0m10:20:14.346336 [info ] [MainThread]: Configuration:
+[0m10:20:14.346336 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m10:20:14.346336 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m10:20:14.346336 [info ] [MainThread]: Required dependencies:
+[0m10:20:14.346336 [debug] [MainThread]: Executing "git --help"
+[0m10:20:14.385795 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m10:20:14.385795 [debug] [MainThread]: STDERR: "b''"
+[0m10:20:14.385795 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m10:20:14.385795 [info ] [MainThread]: Connection:
+[0m10:20:14.385795 [info ] [MainThread]:   host: 51.159.74.117
+[0m10:20:14.385795 [info ] [MainThread]:   port: 16573
+[0m10:20:14.385795 [info ] [MainThread]:   user: binome1
+[0m10:20:14.388943 [info ] [MainThread]:   database: db_binome1
+[0m10:20:14.389447 [info ] [MainThread]:   schema: dwh
+[0m10:20:14.389447 [info ] [MainThread]:   connect_timeout: 10
+[0m10:20:14.389447 [info ] [MainThread]:   role: None
+[0m10:20:14.389447 [info ] [MainThread]:   search_path: None
+[0m10:20:14.389447 [info ] [MainThread]:   keepalives_idle: 0
+[0m10:20:14.389447 [info ] [MainThread]:   sslmode: None
+[0m10:20:14.389447 [info ] [MainThread]:   sslcert: None
+[0m10:20:14.392115 [info ] [MainThread]:   sslkey: None
+[0m10:20:14.392115 [info ] [MainThread]:   sslrootcert: None
+[0m10:20:14.393119 [info ] [MainThread]:   application_name: dbt
+[0m10:20:14.393622 [info ] [MainThread]:   retries: 1
+[0m10:20:14.393622 [info ] [MainThread]: Registered adapter: postgres=1.7.11
+[0m10:20:14.394626 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m10:20:14.395626 [debug] [MainThread]: Using postgres connection "debug"
+[0m10:20:14.395626 [debug] [MainThread]: On debug: select 1 as id
+[0m10:20:14.395626 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:20:14.502241 [debug] [MainThread]: SQL status: SELECT 1 in 0.0 seconds
+[0m10:20:14.506341 [debug] [MainThread]: On debug: Close
+[0m10:20:14.507340 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m10:20:14.508383 [info ] [MainThread]: [31m1 check failed:[0m
+[0m10:20:14.509301 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\hector.trejos-cabeza\Documents\DBT_CN\dbt_project.yml> not found
+
+[0m10:20:14.510305 [debug] [MainThread]: Command `dbt debug` failed at 10:20:14.510305 after 0.32 seconds
+[0m10:20:14.510305 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m10:20:14.511334 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220EC9413A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220EC90BE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220EC90A3C0>]}
+[0m10:20:14.511334 [debug] [MainThread]: Flushing usage events
+[0m13:44:08.958328 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AD8A5FF20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AD8A5D520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AD8A5E570>]}
+
+
+============================== 13:44:08.962051 | 83d8cff0-29cc-4abe-b1d4-7ccd718274c3 ==============================
+[0m13:44:08.962051 [info ] [MainThread]: Running with dbt=1.7.11
+[0m13:44:08.962051 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\hector.trejos-cabeza\\Documents\\DBT_CN', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\hector.trejos-cabeza\\Documents\\DBT_CN\\logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:44:08.965047 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'default'
+[0m13:44:08.966040 [debug] [MainThread]: Command `dbt run` failed at 13:44:08.966040 after 0.11 seconds
+[0m13:44:08.966040 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AD8A87FB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AD8A37B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013AD2433CE0>]}
+[0m13:44:08.967047 [debug] [MainThread]: Flushing usage events
+[0m13:45:57.992682 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239923FF620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239923FFEC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239923FF4A0>]}
+
+
+============================== 13:45:57.995682 | bc24f668-56ca-4859-a65d-07c041bb87dd ==============================
+[0m13:45:57.995682 [info ] [MainThread]: Running with dbt=1.7.11
+[0m13:45:57.996682 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\hector.trejos-cabeza\\Documents\\DBT_CN', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:45:57.996682 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\hector.trejos-cabeza\Documents\DBT_CN\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:45:57.997687 [debug] [MainThread]: Command `dbt run` failed at 13:45:57.997687 after 0.09 seconds
+[0m13:45:57.998684 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023992213050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239922CBE60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023992427EF0>]}
+[0m13:45:57.998684 [debug] [MainThread]: Flushing usage events
