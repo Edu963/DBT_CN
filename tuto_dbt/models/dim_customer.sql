@@ -13,3 +13,5 @@ select
 	stg_person.*
 from sq
 left join {{ ref ('stg_person')}}stg_person on stg_person.business_entity_id = sq.person_id
+
+
