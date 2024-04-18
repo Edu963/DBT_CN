@@ -17,8 +17,8 @@ select
 	sq.name as state,
 	sq.state_province, 
 	sq.country,
-	stg_address.adress_id,
-	stg_address.adress,
+	stg_address.address_id,
+	stg_address.address,
 	stg_address.city,
 	stg_address.state_province_id,
 	stg_address.postal_code

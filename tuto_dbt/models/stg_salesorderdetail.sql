@@ -6,7 +6,8 @@ SELECT
     s.unitprice as unit_price, 
     s.specialofferid as special_offer,
     s.modifieddate as date,
-    s.productid as prduct_id
+    s.productid as prduct_id,
+    s.rowguid
     
 
 

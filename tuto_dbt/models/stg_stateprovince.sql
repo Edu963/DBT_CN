@@ -2,7 +2,8 @@
 SELECT 
 	s.countryregioncode as Country_Code,
 	s.name,
-	s.stateprovincecode as state_province
+	s.stateprovincecode as state_province,
+	s.rowguid
 	
 
    

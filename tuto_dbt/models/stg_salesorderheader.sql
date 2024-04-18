@@ -12,7 +12,7 @@ SELECT
 	s.duedate as due_date,
 	s.totaldue as total_due,
 	s.customerid as customer_id,
-	s.salespersonid as Account_Executive
-
+	s.salespersonid as Account_Executive,
+	s.rowguid
    
 from dwh_raw.salesorderheader s 
